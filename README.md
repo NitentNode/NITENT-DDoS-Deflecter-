@@ -57,5 +57,7 @@ For support or inquiries, you can reach the development team at:
 
 - **Nitent Nodes Website**: [https://nitent.store/](https://nitent.store/)
 - **GitHub Repository**: [https://github.com/NitentNode/NITENT-DDoS-Deflecter-](https://github.com/NitentNode/NITENT-DDoS-Deflecter-)
+- **Support**: [https://discord.gg/TmFZNMWuDF](https://discord.gg/TmFZNMWuDF)
+- **Hosting**: [https://discord.gg/V4uWMy8bfP](https://discord.gg/V4uWMy8bfP)
 
 ---
