@@ -1,4 +1,4 @@
-Here's a cool and professional `README.md` for your GitHub repository:
+
 
 ```markdown
 # NITENT DDoS Deflecter
