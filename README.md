@@ -1,81 +1,127 @@
-
+Here's a cool and professional `README.md` for your GitHub repository:
 
 ```markdown
-# Nitent DDoS Protection Tool
+# NITENT DDoS Deflecter
 
-## Overview
-The **Nitent DDoS Protection Tool** is designed to monitor and protect your Linux server from potential DDoS (Distributed Denial of Service) attacks. This tool provides real-time monitoring of incoming and outgoing traffic, automatically blocks suspicious IP addresses, and allows you to manage blocked IPs manually. It is a useful tool for securing your VPS or server from high-volume traffic that could lead to downtime or server overload.
+**NITENT DDoS Deflecter** is a powerful tool designed to help protect your servers from DDoS attacks with advanced features and real-time monitoring. Developed and maintained by **Raju**, the owner of **Nitent Nodes**, this tool provides robust DDoS protection solutions tailored for hosting environments.
 
-This tool offers various features including automatic DDoS detection, IP blocking, and a professional menu interface to easily manage your server's security.
+## ⚠️ Disclaimer
 
-## Features
-- **DDoS Monitoring**: Monitors incoming and outgoing traffic in real-time.
-- **Automatic IP Blocking**: Automatically blocks IPs that exceed a specified connection threshold.
-- **Manual IP Management**: Manually block or unblock IP addresses.
-- **VPS Optimization**: Option to optimize your server with one simple command for better performance.
-- **Live Connection Display**: See real-time active connections with incoming and outgoing traffic details.
-- **Logging**: Logs blocked IPs and actions for future reference.
-- **Color-coded Interface**: Color-coded terminal output for easy identification of actions and status.
+By utilizing this tool, you acknowledge and assume full responsibility for any risks, consequences, or damages that may arise from improper usage, execution, or configuration. 
 
-## Prerequisites
-- A **Linux-based VPS or Server** running Ubuntu/Debian/CentOS.
-- **iptables** installed for firewall management.
-- Basic knowledge of how to use the Linux terminal.
+- **Proceed with caution and diligence.**
+- Any modifications made to your server using this tool are done entirely at your own risk.
+- We strongly recommend thorough testing before applying changes to production systems.
 
-## Installation
+## 💻 Features
 
-1. Download the script to your server:
+- **DDoS Attack Protection**: Real-time monitoring and blocking of incoming attacks.
+- **Automatic Script Setup**: With just one command, you can install, update, or remove the tool.
+- **Advanced Configuration**: Customize protection levels and adjust to fit your needs.
+- **Easy to Use**: Simple bash commands to manage the tool.
+- **Fully Open Source**: Free to use and modify to suit your requirements.
+
+## 🌍 Support Links
+
+- **Enterprise Hosting Support**: [Join our Discord](https://discord.gg/V4uWMy8bfP)
+- **Technical Community**: [Join the Community](https://discord.gg/TmFZNMWuDF)
+
+## 📜 About the Author
+
+**Raju** is the owner and founder of **Nitent Nodes**, a top-tier hosting service that offers a variety of hosting solutions including Minecraft servers, VPS hosting, and DDoS protection. With a passion for server security and system management, Raju developed this tool to help server owners protect their infrastructure from potential DDoS threats.
+
+## 🚀 Installation
+
+To install **NITENT DDoS Deflecter**, follow these steps:
+
+### Prerequisites
+
+- A Linux-based server (Ubuntu, CentOS, Debian, etc.)
+- Root access to the server
+- `curl` installed
+
+### Installation Steps
+
+1. **Clone this repository** (or download the script directly):
    ```bash
-   wget https://github.com/NitentNode/Nitent-DDoS-Protect/raw/main/ddos.sh
+   git clone https://github.com/NitentNode/NITENT-DDoS-Deflecter.git
+   cd NITENT-DDoS-Deflecter
    ```
 
-2. Make the script executable:
+2. **Run the installation script** to download and execute the tool:
    ```bash
-   chmod +x ddos.sh
+   sudo bash install.sh
    ```
 
-3. Run the script:
+   Alternatively, you can download the script directly and execute it:
    ```bash
-   ./ddos.sh
+   curl -fsSL https://raw.githubusercontent.com/NitentNode/NITENT-DDoS-Deflecter-/main/ddos.sh -o ddos.sh
+   sudo chmod +x ddos.sh
+   sudo ./ddos.sh
    ```
 
-4. Optionally, optimize your server with the following command:
-   ```bash
-   bash <(curl -s https://raw.githubusercontent.com/NitentNode/Nitent-Node-VPS-Optimizer/main/install.sh)
-   ```
+3. **Choose an option**:
+   - `1` to install or update NITENT DDoS Deflecter
+   - `2` to remove NITENT DDoS Deflecter
+   - `0` to exit the program
 
-## Usage
+## 🛠️ Usage
 
-Once the script is executed, you will see a main menu with the following options:
-1. **DDoS Monitoring (Auto IP Block)**: Starts the DDoS monitoring and automatically blocks IPs that exceed the connection threshold.
-2. **Manually Block an IP**: Block a specific IP address.
-3. **Manually Unblock IP**: Unblock a previously blocked IP address.
-4. **Exit**: Exit the script.
+Once installed, you can use the following commands to manage the NITENT DDoS Deflecter:
 
-### DDoS Monitoring
-The tool continuously monitors incoming and outgoing traffic, identifies potential DDoS threats, and blocks malicious IP addresses based on a defined threshold. All blocked IPs are logged and can be reviewed later.
+- **Install or Update**:  
+  Runs the script, checks if the tool is already installed, and updates it if necessary.
+  
+- **Remove**:  
+  Uninstalls the tool from your system.
 
-### VPS Optimization
-The script provides an option to optimize your VPS, which enhances server performance and adds layers of protection against DDoS attacks.
+### Example:
 
-## Disclaimer
+```bash
+sudo bash ddos.sh
+```
 
-By utilizing this tool, you expressly acknowledge and assume full responsibility for any risks, consequences, or damages that may arise from improper usage, execution, or configuration.
+**Options Menu**:
 
-Proceed with caution and diligence.
+```bash
+1 - Install or Update NITENT DDoS Deflecter
+2 - Remove NITENT DDoS Deflecter
+0 - Exit
+```
 
-Any modifications made to your server using this tool are done entirely at your own risk.
+## 🌐 Hosted by Nitent Nodes
 
-We strongly recommend thorough testing before applying changes to production systems.
+**Nitent Nodes** offers high-performance hosting solutions with 100% uptime and top-tier security. Whether you need **Minecraft hosting**, **VPS servers**, or **DDoS protection**, we’ve got you covered. 
 
-## License
+For more information, visit our website:
+- [Nitent Nodes Hosting](https://nitent.store)
+- [Nitent Nodes Panel](https://panel.nitent.host)
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+## 🔧 Requirements
 
-## Support
+- **Operating System**: Linux (Ubuntu, Debian, CentOS, etc.)
+- **System Resources**: Minimum 1GB RAM recommended
+- **Disk Space**: 100MB of free space
+- **Dependencies**: `curl`, `bash`
+  
+## 📄 License
 
-For support or questions, please feel free to open an issue or contact the developer at:
-
-**raju**, Owner of Nitent Node
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+
+Thank you for choosing **NITENT DDoS Deflecter**. Stay protected, stay secure! 🔒
+```
+
+### Key Features of This README:
+
+- **Introduction**: The top part introduces the tool and explains its purpose.
+- **Disclaimer**: Clear responsibility and warnings to users about the risks involved.
+- **Features**: Lists the core features of the DDoS deflecter tool.
+- **Support Links**: Directs users to Discord for support and community engagement.
+- **About the Author**: Details about Raju and Nitent Nodes.
+- **Installation Instructions**: Provides detailed steps on how to install the tool with options for downloading directly or cloning the repository.
+- **Usage Instructions**: A simple explanation of how to use the tool.
+- **Requirements**: Lists the basic system requirements for running the tool.
+- **License**: Specifies that the project is licensed under MIT License (you can update this to your actual license type).
+
